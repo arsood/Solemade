@@ -57,6 +57,12 @@
 	width:40px;
 }
 
+@media (max-width: 768px) {
+	.social-media-icons {
+		padding-top:20px;
+	}
+}
+
 .attachment-shop_thumbnail {
 	width:60px !important;
 }
