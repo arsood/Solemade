@@ -41,11 +41,22 @@
 }
 
 .solemade-footer-links {
-	margin-top:15px;
+	margin-top:30px;
 	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80% !important;
 }
 
 .solemade-footer-links div {
 	text-align:center;
 	font-size:1.3em;
+}
+
+.social-media-icons img {
+	width:40px;
+}
+
+.attachment-shop_thumbnail {
+	width:60px !important;
 }

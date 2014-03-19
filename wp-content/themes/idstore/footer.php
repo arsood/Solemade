@@ -7,8 +7,12 @@
     <div class="span4 txt-center footer-slogan">
     	Sandals Made With Love
     </div>
-    <div class="span4">
-    	Icons here
+    <div class="span4 social-media-icons txt-center">
+    	<a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/facebook-128.png" /></a>
+        <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/twitter-128.png" /></a>
+        <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/pinterest-128.png" /></a>
+        <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/instagram-128.png" /></a>
+        <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/email-128.png" /></a>
     </div>
 </div>
 
