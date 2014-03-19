@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
+@font-face {
+	font-family: 'Pedra';
+	src: url('font/pedra.TTF'); /* IE9 Compat Modes */
+	url('font/pedra.TTF')  format('truetype'); /* Safari, Android, iOS */
+}
+
 .txt-center {
 	text-align:center;
 }
@@ -12,14 +18,14 @@
 .mailing-list-input {
 	padding:5px !important;
 	border:#3F4060 2px solid !important;
-	font-size:1.4em !important;
-	height:37px !important;
+	font-size:1.2em !important;
+	height:25px !important;
 	font-style:italic !important;
 	margin-top:1px !important;
 }
 
 .mailing-list-button {
-	padding:15px;
+	padding:10px;
 	background-color:#3F4060;
 	border:none;
 	color:#FFF;
@@ -30,14 +36,14 @@
 
 .footer-slogan {
 	font-size:3em;
-	font-family:"Dancing Script", Arial;
+	font-family:"Pedra", "Dancing Script", Arial;
 	color:#900;
 	font-weight:700;
-	padding-top:20px;
+	padding-top:15px;
 }
 
 .gray-border-top {
-	border-top:#CCC 3px solid;
+	border-top:#CCC 1px solid;
 }
 
 .solemade-footer-links {
@@ -65,4 +71,26 @@
 
 .attachment-shop_thumbnail {
 	width:60px !important;
+}
+
+.menu-item a {
+	font-size:1.5em !important;
+}
+
+.header-area {
+	background: #FFF !important;
+}
+
+.header-type-variant3 {
+	background: #FFF !important;
+	border-top:none !important;
+}
+
+#top-cart > a {
+	font-size:2em !important;
+}
+
+.bag-icon {
+	width:20px !important;
+	margin-top:-5px;
 }

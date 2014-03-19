@@ -391,7 +391,7 @@ box-shadow: 0px 2px 10px -2px rgba(0,0,0,0.3);}
 .header-top-variant4 .header-variant2 #searchform .field:focus{background-image: url(images/search_button_bg.png);background-position: 98% 59%; border: 1px solid transparent !important;background-color: #fff;color: #444 !important;height: 18px !important;}
 .header-type-variant4 .header{margin-bottom: 25px;}
 .header-type-variant4 .header-area, .header-type-variant4.header-bg{background: #FFF;}
-.header-type-variant4 #main-nav{background: #fafafa;border-top: 1px solid #ccc;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.header-type-variant4 #main-nav{background: #fafafa; border-top: 1px solid #ccc;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .boxed .header-type-variant4 #main-nav{width: 980px;}
 .header-type-variant4{text-align: center;}
 .header-type-variant4 div.menu{text-align: center;top:0;margin-top: 0;padding-bottom: 0;}
