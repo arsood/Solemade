@@ -5,7 +5,7 @@
         <button class="mailing-list-button">></button>
     </div>
     <div class="span4 txt-center footer-slogan">
-    	Sandals Made With Love
+    	sandals made with love
     </div>
     <div class="span4 social-media-icons txt-center">
     	<a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/facebook-128.png" /></a>
@@ -39,6 +39,10 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="footer-copyright">
+    &copy; 2014 Solemade All Rights Reserved
 </div>
 
 <?php

@@ -18,14 +18,14 @@
 .mailing-list-input {
 	padding:5px !important;
 	border:#3F4060 2px solid !important;
-	font-size:1.2em !important;
-	height:25px !important;
+	font-size:0.9em !important;
+	height:15px !important;
 	font-style:italic !important;
 	margin-top:1px !important;
 }
 
 .mailing-list-button {
-	padding:10px;
+	padding:5px;
 	background-color:#3F4060;
 	border:none;
 	color:#FFF;
@@ -35,11 +35,10 @@
 }
 
 .footer-slogan {
-	font-size:3em;
+	font-size:2.5em;
 	font-family:"Pedra", "Dancing Script", Arial;
 	color:#900;
 	font-weight:700;
-	padding-top:15px;
 }
 
 .gray-border-top {
@@ -60,7 +59,7 @@
 }
 
 .social-media-icons img {
-	width:40px;
+	width:30px;
 }
 
 @media (max-width: 768px) {
@@ -93,4 +92,14 @@
 .bag-icon {
 	width:20px !important;
 	margin-top:-5px;
+}
+
+.menu-item a:hover {
+	border:none !important;
+}
+
+.footer-copyright {
+	text-align: center;
+	font-size:1.2em;
+	margin-bottom:20px;
 }
