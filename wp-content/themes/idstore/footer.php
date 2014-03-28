@@ -4,10 +4,10 @@
     	<input class="mailing-list-input" type="text" placeholder="Join our mailing list" />
         <button class="mailing-list-button">></button>
     </div>
-    <div class="span4 txt-center footer-slogan">
+    <div class="span4 txt-center footer-slogan media-top-head">
     	sandals made with love
     </div>
-    <div class="span4 social-media-icons txt-center">
+    <div class="span4 social-media-icons txt-center media-top-head">
     	<a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/facebook-128.png" /></a>
         <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/twitter-128.png" /></a>
         <a href="#"><img src="http://localhost/sites/solemade/wp-content/uploads/2014/03/pinterest-128.png" /></a>
@@ -19,22 +19,22 @@
 <div class="container-fluid gray-border-top">
 	<div class="container">
     	<div class="row-fluid solemade-footer-links">
-        	<div class="span2">
+        	<div class="span2 no-margin">
             	<a href="#">SHOP</a>
             </div>
-            <div class="span2">
+            <div class="span2 no-margin">
             	<a href="#">RETURNS</a>
             </div>
-            <div class="span2">
+            <div class="span2 no-margin">
             	<a href="#">FAQs</a>
             </div>
-            <div class="span2">
+            <div class="span2 no-margin">
             	<a href="#">SIZE CHART</a>
             </div>
-            <div class="span2">
+            <div class="span2 no-margin">
             	<a href="#">PRIVACY POLICY</a>
             </div>
-            <div class="span2">
+            <div class="span2 no-margin">
             	<a href="#">CONTACT US</a>
             </div>
         </div>

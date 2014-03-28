@@ -6,27 +6,30 @@
 	url('font/pedra.TTF')  format('truetype'); /* Safari, Android, iOS */
 }
 
+.no-margin {
+	margin:0 !important;
+}
+
 .txt-center {
 	text-align:center;
 }
 
 .solemade-footer {
-	margin-top:30px;
+	margin-top:100px;
 	margin-bottom:20px;
 }
 
 .mailing-list-input {
 	padding:5px !important;
-	border:#3F4060 2px solid !important;
+	border:#000 1px solid !important;
 	font-size:0.9em !important;
 	height:15px !important;
-	font-style:italic !important;
 	margin-top:1px !important;
 }
 
 .mailing-list-button {
-	padding:5px;
-	background-color:#3F4060;
+	padding:3px;
+	background-color:#545454;
 	border:none;
 	color:#FFF;
 	font-size:2em;
@@ -38,7 +41,6 @@
 	font-size:2.5em;
 	font-family:"Pedra", "Dancing Script", Arial;
 	color:#900;
-	font-weight:700;
 }
 
 .gray-border-top {
@@ -50,12 +52,21 @@
 	margin-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
-	width:80% !important;
+	width:70% !important;
 }
 
 .solemade-footer-links div {
 	text-align:center;
-	font-size:1.3em;
+	font-size:1.1em;
+	border-right:#000 1px solid;
+}
+
+.solemade-footer-links div:last-child {
+	border-right:none;
+}
+
+.solemade-footer-links a {
+	color:#999;
 }
 
 .social-media-icons img {
@@ -63,8 +74,12 @@
 }
 
 @media (max-width: 768px) {
-	.social-media-icons {
+	.media-top-head {
 		padding-top:20px;
+	}
+
+	.solemade-footer-links div {
+		border-right:none;
 	}
 }
 
@@ -73,7 +88,7 @@
 }
 
 .menu-item a {
-	font-size:1.5em !important;
+	font-size:1.7em !important;
 }
 
 .header-area {

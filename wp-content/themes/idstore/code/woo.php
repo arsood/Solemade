@@ -50,12 +50,12 @@ class Etheme_WooCommerce_Widget_Cart extends WP_Widget {
 		
 		extract( $args );
 
-		$title = apply_filters('widget_title', empty( $instance['title'] ) ? __('Cart', ETHEME_DOMAIN) : $instance['title'], $instance, $this->id_base );
+		$title = apply_filters('widget_title', empty( $instance['title'] ) ? __('CART', ETHEME_DOMAIN) : $instance['title'], $instance, $this->id_base );
 		$hide_if_empty = empty( $instance['hide_if_empty'] )  ? 0 : 1;
 
 
 ?>
-    <a href="<?php echo $woocommerce->cart->get_cart_url(); ?>"><?php if ( $title ) echo $title ; ?><?php echo '<span style="margin-left:10px;"><img class="bag-icon" src="http://emboldenmedia.com/staging/solemade/wp-content/uploads/2014/03/bag-icon.png" /></span>' ?><!--<span><?php echo $woocommerce->cart->get_cart_subtotal(); ?></span>--></a>
+    <a href="<?php echo $woocommerce->cart->get_cart_url(); ?>"><?php echo '<span style="margin-right:10px;"><img class="bag-icon" src="http://emboldenmedia.com/staging/solemade/wp-content/uploads/2014/03/bag-icon.png" /></span>' ?><?php if ( $title ) echo $title ; ?><!--<span><?php echo $woocommerce->cart->get_cart_subtotal(); ?></span>--></a>
     <div class="cart-popup-container">
     <div class="cart-popup" style="display: none; ">
         <?php
