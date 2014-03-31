@@ -52,13 +52,13 @@
 	margin-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
-	width:70% !important;
+	width:80% !important;
 }
 
 .solemade-footer-links div {
 	text-align:center;
 	font-size:1.1em;
-	border-right:#000 1px solid;
+	border-right:#555 2px solid;
 }
 
 .solemade-footer-links div:last-child {
@@ -101,11 +101,11 @@
 }
 
 #top-cart > a {
-	font-size:2em !important;
+	font-size:1.7em !important;
 }
 
 .bag-icon {
-	width:20px !important;
+	width:17px !important;
 	margin-top:-5px;
 }
 
@@ -115,6 +115,9 @@
 
 .footer-copyright {
 	text-align: center;
-	font-size:1.2em;
 	margin-bottom:20px;
+}
+
+.banners_top_row {
+	margin-top:30px !important;
 }
